@@ -10,6 +10,7 @@
 		404EE08F258102CD00C0D329 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404EE08E258102CD00C0D329 /* Endpoints.swift */; };
 		404EE0952581032C00C0D329 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404EE0942581032C00C0D329 /* AppConstants.swift */; };
 		404EE0A1258107C900C0D329 /* CollectionView+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404EE0A0258107C900C0D329 /* CollectionView+Ex.swift */; };
+		404EE0CD2581156A00C0D329 /* ImageLoadingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404EE0CC2581156A00C0D329 /* ImageLoadingAppTests.swift */; };
 		40BBC9A02580D5D2009F4259 /* StaggeredFlowLayoutFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBC99F2580D5D2009F4259 /* StaggeredFlowLayoutFrame.swift */; };
 		40BBC9BA2580E4D9009F4259 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BBC9B92580E4D9009F4259 /* NetworkResponse.swift */; };
 		4D2C4E3E88B08938329FBC2D /* Pods_ImageLoadingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF13565C81E19CD07D55C44 /* Pods_ImageLoadingAppTests.framework */; };
@@ -57,6 +58,7 @@
 		404EE0942581032C00C0D329 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		404EE0A0258107C900C0D329 /* CollectionView+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+Ex.swift"; sourceTree = "<group>"; };
 		404EE0B92581146700C0D329 /* ImageLoadingAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageLoadingAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		404EE0CC2581156A00C0D329 /* ImageLoadingAppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoadingAppTests.swift; sourceTree = "<group>"; };
 		40BBC99F2580D5D2009F4259 /* StaggeredFlowLayoutFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredFlowLayoutFrame.swift; sourceTree = "<group>"; };
 		40BBC9B92580E4D9009F4259 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
 		7A5FB43254D4C772DC9153B4 /* Pods-ImageLoadingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageLoadingAppTests.release.xcconfig"; path = "Target Support Files/Pods-ImageLoadingAppTests/Pods-ImageLoadingAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 		826DBCCF257F8B10000F0F1B /* ImageLoadingAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				404EE0CC2581156A00C0D329 /* ImageLoadingAppTests.swift */,
 				826DBCD2257F8B10000F0F1B /* Info.plist */,
 				404EE0B92581146700C0D329 /* ImageLoadingAppTests-Bridging-Header.h */,
 			);
@@ -608,6 +611,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404EE0CD2581156A00C0D329 /* ImageLoadingAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
