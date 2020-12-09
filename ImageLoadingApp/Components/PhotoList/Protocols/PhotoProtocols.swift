@@ -11,6 +11,7 @@ import UIKit
 
 protocol PhotoListViewProtocol: class {
     func showPhotos(with photos: [Photo])
+    func showError(message:String?)
 }
 
 // MARK:- VIEW -> PRESENTER
@@ -36,6 +37,7 @@ protocol PhotoListInputInteractorProtocol {
 
 protocol PhotoListOutputInteractorProtocol {
     func photoListDidFetch(photoList: [Photo])
+    func showError(message:String?)
 }
 
 // MARK:- PRESENTER -> ROUTER

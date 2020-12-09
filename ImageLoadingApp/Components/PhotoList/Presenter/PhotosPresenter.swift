@@ -33,6 +33,10 @@ class PhotosPresenter:PhotoListPresenterProtocol {
 // MARK:- Interactor Protocol
 
 extension PhotosPresenter: PhotoListOutputInteractorProtocol {
+    func showError(message: String?) {
+        view?.showError(message: message)
+    }
+    
     func photoListDidFetch(photoList: [Photo]) {
         view?.showPhotos(with: photoList)
     }

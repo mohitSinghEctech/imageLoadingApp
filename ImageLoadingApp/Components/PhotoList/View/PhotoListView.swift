@@ -42,6 +42,10 @@ class PhotoListView: UIViewController  {
 }
 
 extension PhotoListView: PhotoListViewProtocol {
+    func showError(message: String?) {
+        self.addAlert(message: message ?? "Unable to Fetch Photos")
+    }
+    
     
     func showPhotos(with photos: [Photo]) {
         self.photos = photos

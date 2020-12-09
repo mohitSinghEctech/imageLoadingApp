@@ -20,7 +20,7 @@ class PhotosInteractor: PhotoListInputInteractorProtocol {
                 self.presenter?.photoListDidFetch(photoList: photos?.photos ?? [])
                 break
             case .failure(let error):
-                //TODO
+                self.presenter?.showError(message: error.localizedDescription)
                 break
             }
         }
